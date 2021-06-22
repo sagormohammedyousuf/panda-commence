@@ -1,8 +1,65 @@
 *{
     font-family: 'Poppins', sans-serif; 
-    margin:  0px 3% 3% 3%;
+    /* margin:  0px 3% 3% 3%; */
 }
 
 .sala{
-    background-color: rgb(85, 80, 117);
+    background-color: rgb(151, 149, 167);
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+#demo{
+    background-color: rgb(161, 153, 153);
+}
+
+.cat1{
+    background-color: goldenrod;
+}
+.cat2{
+    background-color: rgb(117, 173, 33);
+}
+.cat3{
+    background-color: rgb(153, 109, 51);
+}
+.categories{
+    margin-top: 15px;
+}
+
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 8px 10px 0px gray
+}
+.categories h1{
+    color: aliceblue;
+}
+
+
+#shoes{
+    margin-top:15px;
+} 
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(194, 179, 179);
+}
+
+#backpack{
+    margin-top: 15px;
+}
+
+#subcribe{
+    margin-top: 25px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(138, 134, 134);
+    
+}
+.item{
+    margin-top: 10%;
 }

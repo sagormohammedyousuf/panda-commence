@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<div>
     
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,8 +23,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Shoes</a>
-            <a class="nav-item nav-link" href="#">Backpack</a>
+            <a class="nav-item nav-link" href="#shoes">Shoes</a>
+            <a class="nav-item nav-link" href="#backpack">Backpack</a>
             <a class="nav-item nav-link " href="#">About</a>
           </div>
         </div>
@@ -35,68 +35,209 @@
 
  
 
-<section>
-  <div id="caro" class="carousel slide sala" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#caro" data-slide-to="0" class="active"></li>
-      <li data-target="#caro" data-slide-to="1"></li>
-      <li data-target="#caro" data-slide-to="2"></li>
-    </ol>
+<section class="container">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="row">
-          <h1>Mega LCD TV FOR Family</h1>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <h1>599$</h1>
+        <img src="img/banner-images/tv.png" alt="tv"  height="350"width="600">
+        <div class="carousel-caption text-success">
+          <h3>Smart TV</h3>
+          <p>Quality Best Tv!</p>
+          <h2>499$</h2>
           <button class="btn btn-success">BUY NOW</button>
-          <div class="col-md-7"></div>
-          <div class="col-md-5"> <img class="d-block w-100" src="img/banner-images/tv.png" alt="First slide"></div>
-        </div>
-       
+        </div>   
       </div>
       <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-7"></div>
-          <div class="col-md-5">
-            <img class="d-block w-100" src="img/banner-images/headphone.png" alt="Second slide">
-          </div>
-        </div>
-        
+        <img src="img/banner-images/headphone.png" alt="headphone" height="350" width="600">
+        <div class="carousel-caption">
+          <h3>Headphone</h3>
+          <p>Awesome sound!</p>
+          <button class="btn btn-success">BUY NOW</button>
+        </div>   
       </div>
       <div class="carousel-item">
-         <div class="row">
-           <div class="col-md-7"></div>
-           <div class="col-md-5">
-            <img class="d-block w-100" src="img/banner-images/xbox.png" alt="Third slide">
-           </div>
-         </div>
-        
+        <img src="img/banner-images/xbox.png" alt="x-box"  height="350" width="600">
+        <div class="carousel-caption">
+          <h3>X-Box</h3>
+          <p>just Awesome!</p>
+          <button class="btn btn-success">BUY NOW</button>
+        </div>   
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
     </a>
   </div>
+
+
 </section>
 
 
 
-
+<div class="container categories">
+  <div class="row">
+    <div class="col-md-4 ">
+      <div class="cat1 d-flex justify-content-between align-items-center">
+        <h1>Watch</h1>
+        <img src="img/categories/watch.png">
+      </div>
+    
+    </div>
+    <div class="col-md-4 text-center ">
+      <div class="cat2 d-flex justify-content-between align-items-center"> 
+        <h1>Bag</h1>
+        <img src="img/categories/bag.png">
+      </div>
+     
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="cat3 d-flex justify-content-between align-items-center">
+        <h1>Shoes</h1>
+        <img src="img/categories/shoes.png">
+      </div>
+     
+    </div>
+  </div>
+</div>
 
 
 
 
     
+<div class="container shoes" id="shoes">
+  <h3>SHOES</h3>
+  <div class="card-deck">
+    <div class="card">
+      <img src="img/shoes/shoe-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Panda</h3>
+        <h5>99$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    
+    <button class="btn btn-success d-flex ">BUY NOW</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/shoes/shoe-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Nike</h3>
+        <h5>49$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        
+      <div >
+        <button class="btn btn-success ">BUY NOW</button>
+      </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/shoes/shoe-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Nike Max</h3>
+        <h5>79$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button class="btn btn-success ">BUY NOW</button>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
+<div class="container" id="backpack">
+  <h3>Backpack</h3>
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="img/bags/bag-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Livo</h3>
+        <h5>55$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="btn btn-success ">BUY NOW</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/bags/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Van Walk</h3>
+        <h5>99$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        
+      </div>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="btn btn-success ">BUY NOW</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/bags/bag-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Bata</h3>
+        <h5>89$</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer d-flex justify-content-center ">
+        <button class="btn btn-success  ">BUY NOW</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div class="container bg-light d-flex justify-content-center  " id="subcribe">
+<div class="item">
+  <h3 class="text-dark ">LET'S STAY IN TOUCH</h3>
+  <h6 class="text-info">Get updates on sales , specials and more </h6>
+  <input class="" type="text">
+  <button class="btn btn-outline-info ">SUBMIT</button>  
+</div>
+</div>
+   
+
+<footer class="container text-center">
+  <p>&copy;2021 all right Yousuf</p>
+</footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
